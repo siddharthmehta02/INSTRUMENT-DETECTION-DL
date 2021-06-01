@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.app{
+  background-color: rgb(226, 32, 139);
+  height: 100vh;
+}
+
+.form{
+  background-color: rgba(255, 0, 0, 0.123);
+  text-align: center;
+  /* justify-content: center; */
+  position: relative;
+  top:50%;
+  left:50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width:30%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input{
+  border:none;
+  text-align: center;
+}
+
+button{
+  color: red;
+  margin-top: 20px;
+  border:none;
+  padding:10px 20px;
+  /* width:30%; */
+  border-radius: 10px;
+  text-align: center;
+}
+
+input{
+  color:white;
+}
+
+p{
+  color: white;
+  font-weight: bold;
+  margin-top: 1px;;
+}
+
+.output{
+  margin-top: 20px;
+}
+
+.winner{
+  color:rgb(2, 255, 2);
+}
